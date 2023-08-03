@@ -1,0 +1,166 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+#app {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.notes-container,
+.notes-summary {
+  flex-basis: 48%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ccc;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+thead {
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 40px;
+}
+
+tbody {
+  margin-top: 10px; /* Add margin between thead and tbody */
+}
+
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.delete-btn {
+  margin-left: 5%;
+}
+
+button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: white;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+button.archive-btn {
+  background-color: #e74c3c;
+}
+
+button.archive-btn:hover {
+  background-color: #c0392b;
+}
+
+h1,
+h2 {
+  margin-bottom: 10px;
+}
+
+/* Style for table rows */
+tr:hover {
+  background-color: #f0f0f0;
+}
+
+/* Style for buttons in the table cells */
+td button {
+  margin-right: 5px;
+}
+
+/* Style for the "Archive" button */
+td .archive-btn {
+  background-color: #e74c3c;
+}
+
+/* Style for the "Archive" button on hover */
+td .archive-btn:hover {
+  background-color: #c0392b;
+}
+
+/* Style for the "Edit" button */
+td .edit-btn {
+  background-color: #27ae60;
+}
+
+/* Style for the "Edit" button on hover */
+td .edit-btn:hover {
+  background-color: #21965d;
+}
+
+/* Style for the "Remove" button */
+td .remove-btn {
+  background-color: #e67e22;
+}
+
+/* Style for the "Remove" button on hover */
+td .remove-btn:hover {
+  background-color: #ca6b12;
+}
+
+.notes-summary {
+  margin-top: 80px;
+}
+
+
+
+/* create-note block */
+
+.container-create-note {
+  display: flex;
+  justify-content: flex-end;
+  margin: 40px;
+}
+
+.create-note-btn {
+  padding: 8px 25px;
+  margin: 2px;
+  cursor: pointer;
+  background-color: #f5f3f3;
+  color: rgb(0, 0, 0);
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+
+.create-note-btn:hover {
+  background-color: #979797;
+  transition: 1s;
+}
+
+#noteForm {
+  text-align: center;
+}
+
+#noteForm input,
+#noteForm select {
+  margin: 5px;
+}
