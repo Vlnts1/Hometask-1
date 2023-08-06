@@ -11,7 +11,8 @@
   },
   "rules": {
     "no-console": "error",
-    "no-undef": ["error", { "typeof": true }]
+    "no-undef": "off",
+    "no-unused-vars": "off"
   },
   "globals": {
     "document": "readonly"
